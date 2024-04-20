@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appvenda-prometheus-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: appvenda-prometheus
+  template:
+    metadata:
+      name: appvenda-prometheus-pod
+      labels:
+        app: appvenda-prometheus
+    spec:
+      containers:
+        - name: appvenda-prometheus-container
+          image: prom/prometheus
+          ports:
+            - containerPort: 9090
+          volumeMounts:
+            - name: prometheus-config
+              mountPath: /etc/prometheus/prometheus.yml
+              subPath: prometheus.yml
+      volumes:
+        - name: prometheus-config
+          configMap:
+            name: prometheus-config

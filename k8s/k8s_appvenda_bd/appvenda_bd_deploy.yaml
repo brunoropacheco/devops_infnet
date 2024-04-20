@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appvenda-bd-deploy
+spec:
+  replicas: 4 
+  selector:
+    matchLabels:
+      app: appvenda-bd
+  template:
+    metadata:
+      name: appvenda-bd-pod
+      labels:
+        app: appvenda-bd
+    spec:
+      containers:
+        - name: appvenda-bd-container
+          image: brunoropacheco/bd_mysql_java:0.1
