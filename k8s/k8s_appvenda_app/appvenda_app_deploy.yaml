@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appvenda-app-deploy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: appvenda-app
+  template:
+    metadata:
+      name: appvenda-app-pod
+      labels:
+        app: appvenda-app
+    spec:
+      containers:
+        - name: appvenda-app-container
+          image: brunoropacheco/appvenda_app_java:1.01

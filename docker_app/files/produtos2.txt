@@ -1,0 +1,10 @@
+301;Luvas de couro;true;24.99;Marrom;true;M
+302;Regua;true;2.99;Plastico;false;M
+303;Calca de moletom;true;34.99;Cinza;M;V
+304;Oculos de protecao;true;14.99;Acrilico;true;M
+305;Vestido de festa;true;79.99;Rosa;M;V
+306;Furadeira;true;59.99;Metal;false;M
+307;Jaqueta corta-vento;true;39.99;Preto;P;V
+308;Chave de grifo;true;17.99;Aco;false;M
+309;Sapato social;true;69.99;Marrom;G;V
+310;Chave de fenda eletrica;true;29.99;Plastico;false;M

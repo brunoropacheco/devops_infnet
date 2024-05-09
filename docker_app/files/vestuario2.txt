@@ -1,0 +1,10 @@
+101;Camiseta basica;true;29.99;Branca;M
+102;Calca jeans;true;59.99;Azul;32
+103;Camisa social;true;39.99;Branca;L
+104;Vestido de verao;true;49.99;Vermelho;S
+105;Jaqueta de couro;true;129.99;Preto;M
+106;Sapato de salto;false;79.99;Bege;38
+107;Meias esportivas;true;9.99;Cinza;Unico
+108;Blusa de la;true;39.99;Creme;M
+109;Gravata borboleta;true;19.99;Preta;Unico
+110;Calcao de banho;true;24.99;Azul;XL

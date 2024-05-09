@@ -1,0 +1,4 @@
+301;Luvas de couro;true;24.99;Marrom;true;M;3
+302;Regua;true;2.99;Plastico;false;M;2
+303;Calca de moletom;true;34.99;Cinza;M;V;1
+304;Oculos de protecao;true;14.99;Acrilico;true;M;2

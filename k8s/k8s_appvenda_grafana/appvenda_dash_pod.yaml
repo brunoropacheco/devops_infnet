@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: appvenda-dash-pod
+  labels:
+    app: appvenda-dash
+spec:
+  #volumes:
+   # - name: dash-volume
+    #  persistentVolumeClaim:
+     #   claimName: appvenda-dash-pvc-graph
+  containers:
+    - name: appvenda-dash-container
+      image: grafana/grafana:latest
+      #volumeMounts:
+       # - name: dash-volume
+        #  mountPath: "/var/lib/grafana"

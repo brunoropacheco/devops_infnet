@@ -1,0 +1,10 @@
+201;Chave de fenda;true;5.99;Metal;true
+202;Alicate;true;8.99;Aco;false
+203;Chave inglesa;true;12.99;Aco;true
+204;Martelo;true;9.99;Metal;false
+205;Trena;true;6.99;Plastico;false
+206;Alicate de pressao;true;15.99;Aco;true
+207;Serra manual;false;19.99;Metal;true
+208;Nivel a laser;true;49.99;Plastico;false
+209;Chave de boca;true;7.99;Aco;true
+210;Broca;true;3.99;Metal;true

@@ -1,0 +1,2 @@
+101;Camiseta basica;true;29.99;Branca;M;2
+102;Calca jeans;true;59.99;Azul;P;3
