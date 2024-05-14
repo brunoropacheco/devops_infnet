@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -8,4 +9,16 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
+=======
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: appvenda-dash-pvc-graph
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+>>>>>>> origin/main
       storage: 1Gi

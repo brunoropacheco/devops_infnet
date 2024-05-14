@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -8,4 +9,16 @@ spec:
     requests:
       storage: 1Gi
   accessModes:
+=======
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: appvenda-prometheus-pvc
+spec:
+  storageClassName: manual
+  resources:
+    requests:
+      storage: 1Gi
+  accessModes:
+>>>>>>> origin/main
     - ReadWriteMany
